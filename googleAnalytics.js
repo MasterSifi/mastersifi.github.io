@@ -1,4 +1,4 @@
-<!-- Global site tag (gtag.js) - Google Analytics -->
+//Global site tag (gtag.js) - Google Analytics
 
 
 // Copyright 2012 Google Inc. All rights reserved.
