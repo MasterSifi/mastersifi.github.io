@@ -1,7 +1,9 @@
 //Global site tag (gtag.js) - Google Analytics
-
-
-// Copyright 2012 Google Inc. All rights reserved.
+//Following codes copied and saved from 
+//https://www.googletagmanager.com/gtag/js?id=UA-184602798-1. 
+//From line 6 to 252.
+//Line 254 to 257 from Google Analytics account.
+//Copyright 2012 Google Inc. All rights reserved.
 (function(){
 
 var data = {
@@ -14,9 +16,6 @@ var data = {
   "rules":[[["if",0],["add",0]]]
 },
 "runtime":[]
-
-
-
 
 };
 
@@ -234,25 +233,11 @@ Z.g.e=["google"],function(){(function(a){Z.__e=a;Z.__e.h="e";Z.__e.m=!0;Z.__e.pr
 Z.g.v=["google"],function(){(function(a){Z.__v=a;Z.__v.h="v";Z.__v.m=!0;Z.__v.priorityOverride=0})(function(a){var b=a.vtp_name;if(!b||!b.replace)return!1;var c=sp(b.replace(/\\\./g,"."),a.vtp_dataLayerVersion||1),d=void 0!==c?c:a.vtp_defaultValue;Bp(d,"v",a.vtp_gtmEventId);return d})}();
 Z.g.rep=["google"],function(){(function(a){Z.__rep=a;Z.__rep.h="rep";Z.__rep.m=!0;Z.__rep.priorityOverride=0})(function(a){var b;switch(mi(a.vtp_containerId).prefix){case "AW":b=lm;break;case "DC":b=Bm;break;case "GF":b=Gm;break;case "HA":b=Lm;break;case "UA":b=hn;break;default:G(a.vtp_gtmOnFailure);return}G(a.vtp_gtmOnSuccess);An(a.vtp_containerId,b,a.vtp_remoteConfig||{})})}();
 
-
-
 Z.g.cid=["google"],function(){(function(a){Z.__cid=a;Z.__cid.h="cid";Z.__cid.m=!0;Z.__cid.priorityOverride=0})(function(){return Jf.M})}();
-
-
-
 
 Z.g.get=["google"],function(){(function(a){Z.__get=a;Z.__get.h="get";Z.__get.m=!0;Z.__get.priorityOverride=0})(function(a){var b=a.vtp_settings;(a.vtp_deferrable?Ws:Vs)(String(b.streamId),String(a.vtp_eventName),b.eventParameters||{});a.vtp_gtmOnSuccess()})}();
 
-
-
-
-
-
-
-
-
 Z.g.gtagua=["google"],function(){(function(a){Z.__gtagua=a;Z.__gtagua.h="gtagua";Z.__gtagua.m=!0;Z.__gtagua.priorityOverride=0})(function(a){G(a.vtp_gtmOnSuccess)})}();
-
 
 var at={};at.macro=function(a){if($o.ne.hasOwnProperty(a))return $o.ne[a]},at.onHtmlSuccess=$o.$f(!0),at.onHtmlFailure=$o.$f(!1);at.dataLayer=dg;at.callback=function(a){Uf.hasOwnProperty(a)&&sa(Uf[a])&&Uf[a]();delete Uf[a]};at.bootstrap=0;at._spx=!1;
 function bt(){O[Jf.M]=at;Sa(Vf,Z.g);Nc=Nc||$o;Oc=Wc}
@@ -266,9 +251,7 @@ Sf=(new Date).getTime();at.bootstrap=Sf;if(a){var y=ej("INIT");}}}
 
 })()
 
-
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'UA-184602798-1');
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'UA-184602798-1');
