@@ -1,3 +1,3 @@
 	fetch('pages/header.html')
 	.then(response => response.text())
-	.then(data => loadHTML(data, "header"));
+	.then(data => document.querySelector("header").innerHTML = data);
