@@ -1,13 +1,13 @@
-let index = {
+let headerFooter = {
 
-  //insert header.html in header tag of index.html
+  //insert header.html in header tag of a page
   getHeader : function(){
   fetch('pages/header.html')
   .then(response => response.text())
   .then(data => document.querySelector("header").innerHTML = data);
   },
   
-  //insert footer.html in footer tag of index.html
+  //insert footer.html in footer tag of a page
   getFooter : function(){
   fetch('pages/footer.html')
   .then(response => response.text())
@@ -15,5 +15,5 @@ let index = {
   }
 }
 
-index.getHeader();
-index.getFooter();
+headerFooter.getHeader();
+headerFooter.getFooter();
